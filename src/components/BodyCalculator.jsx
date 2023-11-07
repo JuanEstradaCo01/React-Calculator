@@ -1,3 +1,4 @@
+import React from "react"
 import "../components-styles/BodyCalculator.css"
 import Button from "./Button"
 import Screen from "./Screen"
@@ -5,7 +6,7 @@ import Clear from "./Clear"
 import { useState } from 'react';
 import { evaluate } from "mathjs"
 import Swal from "sweetalert2"
- 
+  
 function BodyCalculator () {
     const [input, setInput] = useState("")
 
