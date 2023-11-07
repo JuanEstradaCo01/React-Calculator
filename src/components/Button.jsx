@@ -2,7 +2,7 @@ import React from "react";
 import "../components-styles/Button.css"
 
 function Button (props) {
-
+ 
     const  isOperator = (value) => {
         if(isNaN(value) && (value !== ".") && (value !== "=")){
             return true

@@ -5,10 +5,10 @@ import Clear from "./Clear"
 import { useState } from 'react';
 import { evaluate } from "mathjs"
 import Swal from "sweetalert2"
-
+ 
 function BodyCalculator () {
     const [input, setInput] = useState("")
-    
+
     const addInput = value => {
         setInput(input + value)
     }
