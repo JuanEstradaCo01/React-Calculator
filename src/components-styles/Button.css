@@ -1,0 +1,33 @@
+.operator{
+    background-color: yellow;
+    width: 6rem;
+    padding: 1rem;
+    text-align: center;
+    border: .2rem solid black;
+    border-radius: .5rem;
+    font-weight: bolder;
+    font-size: 2.25rem;
+    cursor: pointer;
+    margin: .5rem;
+}
+
+.notOperator{
+    background-color: white;
+    width: 5rem;
+    padding: 1.5rem;
+    text-align: center;
+    border: .2rem solid black;
+    border-radius: .5rem;
+    font-weight: 600;
+    font-size: 1.75rem;
+    cursor: pointer;
+    margin: .5rem;
+}
+
+.notOperator:hover{
+    background-color: rgb(197, 197, 142);
+}
+
+.operator:hover{
+    background-color: rgb(161, 161, 2);
+}

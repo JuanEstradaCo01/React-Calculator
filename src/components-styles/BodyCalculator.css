@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(44, 43, 43);
+  }
+  
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.bodyCalculator{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 1rem;
+    background-color: rgb(73, 72, 72);
+    width: 28.5rem;
+    height: 80vh;
+    border: .5rem solid rgb(0, 0, 0);
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    flex-direction: column;
+    box-shadow: .5rem .25rem black;
+  }
+  
+.file{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.result{
+  display: flex;
+  flex: 1 1;
+}
+
+.setting{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.containerClear{
+  width: 100%;
+  margin-right: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
