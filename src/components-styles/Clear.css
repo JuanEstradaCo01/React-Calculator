@@ -3,13 +3,14 @@
     display: flex;
     text-align: center;
     width: 3rem;
-    height: 3.6rem;
+    height: 3.3rem;
     background-color: rgb(212, 164, 4);
     font-weight: bolder;
-    font-size: 3.5rem;
+    font-size: 3rem;
     border: .2rem solid black;
     border-radius: 1rem;
     cursor: pointer;
+    margin-right: 1rem;
 }
  
 .clear:hover{

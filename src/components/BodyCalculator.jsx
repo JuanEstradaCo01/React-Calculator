@@ -17,7 +17,8 @@ function BodyCalculator () {
     const operationResult = () => {
         //Se usa la libreria "Mathjs" para las operaciones matematicas
         if(input){
-            return setInput(evaluate(input))
+            const result = setInput(evaluate(input))
+            return result
         }else{
             return Swal.fire({
                 title: "Operation invalid",
@@ -28,7 +29,7 @@ function BodyCalculator () {
     }
 
     return (
-        <div className="bodyCalculator center">
+        <div className="bodyCalculator">
             <div className="setting">
                 <div className="file">
                     <Screen input={input}/>

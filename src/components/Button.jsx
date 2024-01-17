@@ -13,9 +13,9 @@ function Button (props) {
 
     return (
         //Uso operador ternario para definir si el boton es de tipo operador o tipo numerico y uso una funcion anonima en el onClick
-        <div className= {`buttonContainer ${isOperator(props.children) ? "operator" : "notOperator"}`} onClick={ () => props.click(props.children)}>
+        <button className= {`buttonContainer ${isOperator(props.children) ? "operator" : "notOperator"}`} onClick={ () => props.click(props.children)}>
             {props.children}
-        </div>
+        </button>
     )
 }
 
